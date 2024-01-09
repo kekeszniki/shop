@@ -1,0 +1,91 @@
+body
+{
+ 	 background-image: url("winter.jpg");
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-position: down;
+	 background-size: cover;
+
+}
+
+.nav	
+{
+	width: 100%;
+	padding: 10px 0;
+	background-color: none;
+	text-align: center;
+}
+
+ol
+{
+    padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}	
+
+ol a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+}
+
+ol >li:hover
+{
+	background-color: white;
+	border-radius:20px;
+
+}
+
+ol >li:hover > a
+{
+	color: black;
+}
+
+.god
+{
+	position: absolute;
+	top: 700;
+	left: 43%;
+}
+
+.tekst
+{
+	position: absolute;
+	top: 150;
+	left: 25%;
+	height: 420;
+	width: 900;
+	tekst-slign: center;
+	font-size: 24px;
+	font-family: Arial;
+	text-align: center;
+}
+.tło
+{
+	position: absolute;
+	top: 150;
+	left: 25%;
+	height: 420;
+	width: 900;
+	background-color: white;
+	border-radius: 20px;
+	opacity: 40%
+}
+
+img
+{
+	width: 20%;
+    border-radius: 20px;
+	height: 20%;
+}
