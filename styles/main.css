@@ -1,0 +1,62 @@
+body
+{
+ 	 background-color: black;
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-position: down;
+	 background-size: cover;
+}
+
+.gora	
+{
+	position: absolute;
+	top: 6%;
+	text-align: center;
+	width: 99%;
+	padding: 10px 0;
+	background-color: none;
+}
+
+ol
+{
+    padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 16px;
+	height: 50px;
+	line-height: 200%;
+	display: inline-block;
+}	
+
+ol a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+ol > li
+{
+	float: left;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+
+ol >li:hover
+{
+	\\background-color: black;
+	\\border-radius: 20px;
+
+}
+
+ol >li:hover > a
+{
+	color: red;
+}
+
+.dol	
+{
+	position: absolute;
+	top: 92%;
+	left: 70%;
+}
